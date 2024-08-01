@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Book Library</h1>
+
+    <div class="hero">
+      <p>add new books</p>
+      <form
+        action="
+        "
+      >
+        <div class="author-box box">
+          <p>
+            <label for="author">Author</label>
+          </p>
+          <div><input required type="text" name="author" id="author" /></div>
+        </div>
+
+        <div class="title-box box">
+          <p>
+            <label for="title">title</label>
+          </p>
+          <div><input required type="text" name="title" id="title" /></div>
+        </div>
+
+        <div class="pages-box box">
+          <p>
+            <label for="pages">pages</label>
+          </p>
+          <div><input required type="number" name="pages" id="pages" /></div>
+        </div>
+
+        <div class="read-box box">
+          <p>
+            <label for="read">read</label>
+          </p>
+          <div><input required type="checkbox" name="read" id="read" /></div>
+        </div>
+        <div class="submit-box box">
+          <input id="submit-btn" type="submit" value="add" />
+        </div>
+      </form>
+    </div>
+
+    <div class="books"></div>
+
+    <template>
+      <div>
+        <p>title</p>
+        <p>author</p>
+        <p>pages</p>
+        <p>read?</p>
+      </div>
+    </template>
+  </body>
+</html>

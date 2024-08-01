@@ -1,0 +1,39 @@
+.hero {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+  margin-block: 5rem;
+}
+
+.box {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.box input {
+  border: none;
+  box-shadow: 0.1px 0.5px;
+}
+
+.submit-box {
+  margin-left: auto;
+}
+
+.submit-box > input {
+  cursor: pointer;
+}
+
+.books {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  box-shadow: 0.1px 0.2px red;
+  border-radius: 2px;
+}
